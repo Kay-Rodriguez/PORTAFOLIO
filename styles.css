@@ -1,0 +1,273 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F8E7FF;
+    margin: 0;
+    padding: 0;
+}
+
+.header_principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2e0244;
+    padding: 10px 20px;
+}
+
+.imglogo {
+    width: 100px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #c67fe7;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #f8e4ff;
+}
+
+.hero_tex {
+    flex: 1;
+    text-align: center;
+}
+
+.nombre {
+    width: 700px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.hero_tex p {
+    font-size: 30px;
+    color: #4a006e;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 30px;
+}
+
+button {
+    background-color: #8316c2;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #a43edb;
+}
+
+.foto {
+ 
+    display: flex;
+    justify-content: center;
+}
+
+.imgkarla {
+    width: 600px;
+    height: auto;
+    border-radius: 30%;
+  
+}
+
+/* Proyectos */
+.proyectos {
+    background-color: #e0b7f8;
+    padding: 20px;
+    background-image: url('imagenes/fondo.PNG'); 
+}
+.pdeproyec{
+    font-size: 30px;
+    text-align: center;
+    color: #f0e8f5; 
+}
+
+.tituloproyecto {
+    font-size: 60px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.container_padre {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.container_hijo {
+    background-color: #200130;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+}
+
+.img_proy {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.tet {
+    color: #e4c7f5;
+    font-size: 20px;
+    text-align:center;
+    margin: 10px 0;
+}
+
+.texp {
+    color: #f8e4ff;
+    font-size: 20px;
+    text-align:justify;
+    margin: 10px 0;
+}
+
+.vermas {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #8316c2;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.vermas:hover {
+    background-color: #a43edb;
+}
+
+.bt1{
+    height: 30px;
+    width: 100px;
+    font-size: 15px;
+    padding: 10px 20px;
+    gap:40px;
+    text-align: center; 
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+/* Footer */
+.footer {
+    background-color: #4a006e;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+ 
+border: 2px solid #8316c2; /* Ejemplo del borde en el Box Model */
+    
+    
+margin: 10px 0;
+}
+
+.left-content {
+    max-width: 60%;
+    padding: 10px; 
+    border: 1px solid #c67fe7; 
+margin-right: 20px; 
+}
+
+.footer h3 {
+    font-size: 24px;
+    color: #f361f8;
+    margin: 0;
+}
+
+.footer p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #f3a0de;
+}
+
+.right-content form {
+    display: flex;
+    align-items: center;
+}
+
+.right-content input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    width: 400px;
+}
+
+.right-content input[type="button"] {
+    padding: 8px 16px;
+    background-color: #8316c2;
+    
+   
+color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.right-content input[type="button"]:hover {
+    background-color: #a43edb;
+}
+.imgkarly{
+    width: 90px;
+    height: 20px;
+}
+/* Social Icons y Copyright */
+.social-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.copyright p {
+
+text-align: center;
+    margin-top: 10px;
+font-size: 14px;
+}
+
+
+
+   
